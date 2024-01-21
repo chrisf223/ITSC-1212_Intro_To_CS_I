@@ -1,0 +1,53 @@
+	public static void colorGuessY(int y) throws InterruptedException {
+		// Set up a new Turtle to start drawing horizontal lines
+		Thread.sleep(10);
+		Turtle jen = new Turtle(w);
+		jen.setVisible(false);
+		jen.setPenColor(Color.black);
+		jen.setHeading(90);
+		jen.penUp();
+		jen.moveTo(0, y);
+		jen.penDown();
+
+		// Draw lines to block off areas of the World where the Turtle isn't
+		if (y > randomY) {
+			for (*** FILL THIS IN ***) {
+				jen.moveTo(0, i);
+				jen.forward(499);
+			}
+		} else {
+			for (*** FILL THIS IN ***) {
+				jen.moveTo(0, i);
+				jen.forward(499);
+			}
+		}
+
+	}
+
+	public static void colorGuessX(int x) throws InterruptedException {
+		// Set up a new Turtle to start drawing vertical lines
+		Thread.sleep(10);
+		Turtle jen = new Turtle(w);
+		jen.setVisible(false);
+		jen.setPenColor(Color.black);
+		jen.setHeading(180);
+		jen.penUp();
+		jen.moveTo(x, 0);
+		jen.penDown();
+
+		// Draw lines to block off areas of the World where the Turtle isn't
+		if (x > randomX) {
+			for (*** FILL THIS IN ***) {
+				jen.moveTo(i, 0);
+				jen.forward(499);
+			}
+		} else {
+			for (*** FILL THIS IN ***) {
+				jen.moveTo(i, 0);
+				jen.forward(499);
+			}
+		}
+
+	}
+
+  }
